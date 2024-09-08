@@ -1,4 +1,5 @@
 .idea
 *.log
-*.pdf
 *.aux
+*.pdf
+!book.pdf
