@@ -1,5 +1,5 @@
-!#/bin/sh
+#!/bin/sh
 docker run -it --rm \
   -v $(pwd):/data \
   -w /data \
-  frankywahl/latex pdflatex book.tex
+  frankywahl/latex pdflatex master-book.tex

@@ -2,4 +2,4 @@
 *.log
 *.aux
 *.pdf
-!book.pdf
+!master-book.pdf
