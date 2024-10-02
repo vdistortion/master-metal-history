@@ -1,45 +1,6 @@
-\documentclass[10pt, twoside]{book}
-\usepackage[T2A]{fontenc}
-\usepackage[russian]{babel}
-
-% Шрифты
-\usepackage{lmodern}
-\renewcommand{\rmdefault}{phv}
-
-% Параметры страницы
-\usepackage[
-    paperwidth=140mm,
-    paperheight=200mm,
-    margin=15mm,
-    outer=20mm
-]{geometry}
-
-% Изображения
-\usepackage{wrapfig}
-\usepackage{graphicx}
-\graphicspath{{images/}}
-\newcommand{\myincludegraphics}[1]{\includegraphics[width=\linewidth]{#1}}
-
-% Подписи
-\usepackage{caption}
-\captionsetup[figure]{labelformat=empty, labelsep=none, font=it, size=small}
-
-% Нумерация и колонтитулы
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot[LE]{\textbf{\thepage}}
-\fancyfoot[RO]{\textbf{\thepage}}
-\renewcommand{\headrulewidth}{0pt}
-
-% Счётчик страниц
-\setcounter{page}{1}
+\input{preamble}
 
 \begin{document}
-
-\title{«МАСТЕР»}
-\author{ИСТОРИЯ ГРУППЫ}
-\date{}
 
 \newgeometry{margin=0cm}
 
@@ -77,7 +38,7 @@
 \begin{figure}[h]
     \centering
     \myincludegraphics{Image01}
-    \caption{\texttt{
+    \caption*{\texttt{
         Первый состав группы «Мастер» (слева-направо): Игорь Молчанов, Кирилл Покровский, Андрей Большаков, Сергей
         Попов, Алик Грановский и Александр Арзамасков. Май 1987 год.
     }}
@@ -94,7 +55,7 @@
 
 \begin{wrapfigure}{L}{0.48\textwidth}
     \myincludegraphics{Image02}
-    \caption{\texttt{
+    \caption*{\texttt{
         Первая группа Грановского. Алик на этом снимке сидит справа, а рядом с ним - Сергей Потемкин и Юрий Камышников
     }}
 \end{wrapfigure}
