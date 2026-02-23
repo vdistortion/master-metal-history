@@ -1,5 +1,2 @@
 .idea
-*.log
-*.aux
 *.pdf
-!master-book.pdf
