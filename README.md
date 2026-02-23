@@ -30,7 +30,7 @@
 «Т.Rex», «Creedence» и «Slade».
 
 <figure>
-<p><img src="images/Image01.png" /></p>
+<p><img src="images/Image01.webp" /></p>
 <figcaption><p>Первый состав группы «Мастер» (слева-направо): Игорь
 Молчанов, Кирилл Покровский, Андрей Большаков, Сергей Попов, Алик
 Грановский и Александр Арзамасков. Май 1987 год.</p></figcaption>
@@ -58,7 +58,7 @@
 можно будет наконец пойти репетировать…
 
 <figure>
-<p><img src="images/Image02.png" /></p>
+<p><img src="images/Image02.webp" /></p>
 <figcaption><p>Первая группа Грановского. Алик на этом снимке сидит
 справа, а рядом с ним - Сергей Потемкин и Юрий
 Камышников</p></figcaption>
@@ -79,7 +79,7 @@ Everybody», поднявшейся до 1 места в национально�
 Blue» на первое место в списке лучших альбомов Соединенного Королевства.
 
 <figure>
-<p><img src="images/Image03.png" /></p>
+<p><img src="images/Image03.webp" /></p>
 <figcaption><p>Группа «Шестое чувство»</p></figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ Blue» на первое место в списке лучших альбомо�
 стал путеводной нитью для многих советских групп тяжелого направления.
 
 <figure>
-<p><img src="images/Image04.png" /></p>
+<p><img src="images/Image04.webp" /></p>
 <figcaption><p>«Млечный путь» (слева направо): звукооператор Евгений
 Морозов, Павел Бабердин, Андрей «Крустер» Лебедев, Александр Мирошников
 и Сергей Жариков</p></figcaption>
@@ -150,7 +150,7 @@ Lake & Palmer», правда, скорее популярная, чем сло�
 было очень громко, очень конкретно и очень жестоко.
 
 <figure>
-<p><img src="images/Image05.png" /></p>
+<p><img src="images/Image05.webp" /></p>
 <figcaption><p>Андрей Крустер и Алик Грановский. Первая фотосессия
 будущих звезд прошла прямо на флэту</p></figcaption>
 </figure>
@@ -227,7 +227,7 @@ Dassin) и русского барда Владимира Высоцкого. Н
 первое же более или менее реальное предложение.
 
 <figure>
-<p><img src="images/Image06.png" /></p>
+<p><img src="images/Image06.webp" /></p>
 <figcaption><p>«Коктейль»: Шатуновский и Иншаков на
 концерте</p></figcaption>
 </figure>
@@ -244,7 +244,7 @@ Dassin) и русского барда Владимира Высоцкого. Н
 «Коктейль» не передавали и по телевизору не показывали…
 
 <figure>
-<p><img src="images/Image07.png" /></p>
+<p><img src="images/Image07.webp" /></p>
 <figcaption><p>Артур Беркут в 1979 году</p></figcaption>
 </figure>
 
@@ -303,7 +303,7 @@ Dassin) и русского барда Владимира Высоцкого. Н
 также другие страшные и веселые песни.
 
 <figure>
-<p><img src="images/Image08.png" /></p>
+<p><img src="images/Image08.webp" /></p>
 <figcaption><p>«Смещение»: Крустер и Алеся Троянская</p></figcaption>
 </figure>
 
@@ -444,7 +444,7 @@ Purple», и «Led Zeppelin». И все же настал момент, ког�
 согласился: почему бы и не поиграть, если он абсолютно свободен?
 
 <figure>
-<p><img src="images/Image09.png" /></p>
+<p><img src="images/Image09.webp" /></p>
 <figcaption><p>Алик Грановский</p></figcaption>
 </figure>
 
@@ -521,7 +521,7 @@ Purple», и «Led Zeppelin». И все же настал момент, ког�
 прослушивание и… стали музыкантами ансамбля «Поющие сердца».
 
 <figure>
-<p><img src="images/Image10.png" /></p>
+<p><img src="images/Image10.webp" /></p>
 <figcaption><p>Виктор Яковлевич Векштейн</p></figcaption>
 </figure>
 
@@ -574,7 +574,7 @@ Purple», и «Led Zeppelin». И все же настал момент, ког�
 этого хотели…
 
 <figure>
-<p><img src="images/Image11.png" /></p>
+<p><img src="images/Image11.webp" /></p>
 <figcaption><p>ВИА «Поющие Сердца» до прихода Холстинина. Поет уже
 Валерий Кипелов, на гитаре играет Сергей Потемкин, на басу - Алик
 Грановский, за барабанами - Александр Львов</p></figcaption>
@@ -589,7 +589,7 @@ Purple», и «Led Zeppelin». И все же настал момент, ког�
 «Телевидеобум» — вполне отвечавшие духу эпохи.
 
 <figure>
-<p><img src="images/Image12.png" /></p>
+<p><img src="images/Image12.webp" /></p>
 <figcaption><p>Большаков периода «Зигзага»</p></figcaption>
 </figure>
 
@@ -628,7 +628,7 @@ Purple», и «Led Zeppelin». И все же настал момент, ког�
 Большаков выдержал лишь год подобной жизни, а потом покинул «Бим-Бом»…
 
 <figure>
-<p><img src="images/Image13.png" /></p>
+<p><img src="images/Image13.webp" /></p>
 <figcaption><p>Большаков времен альбома «Надоело»</p></figcaption>
 </figure>
 
@@ -766,7 +766,7 @@ Maiden», как того хотел Холстинин. Песня «Без т�
 поставим на сцену какого-нибудь симпатичного парня!»*
 
 <figure>
-<p><img src="images/Image14.png" /></p>
+<p><img src="images/Image14.webp" /></p>
 <figcaption><p>«Ария»: Александр Львов, Кирилл Покровский, Андрей
 Большаков, Валерий Кипелов, Владимир Холстинин, Алик Грановский, позади
 всех - только пришедший в группу Игорь Молчанов</p></figcaption>
@@ -848,7 +848,7 @@ Maiden», как того хотел Холстинин. Песня «Без т�
 асфальта».)
 
 <figure>
-<p><img src="images/Image15.png" /></p>
+<p><img src="images/Image15.webp" /></p>
 <figcaption><p>Бальшаков, Грановский и Холстинин в составе
 «Арии»</p></figcaption>
 </figure>
@@ -1103,7 +1103,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 песню с альбома «Burn», причем делам это на хорошем английском языке.
 
 <figure>
-<p><img src="images/Image16.png" /></p>
+<p><img src="images/Image16.webp" /></p>
 <figcaption><p>«Мастер» №1: Покровский, Грановский, Попов, Большаков,
 Арзамасков и Молчанов</p></figcaption>
 </figure>
@@ -1140,7 +1140,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 лучше их!
 
 <figure>
-<p><img src="images/Image17.png" /></p>
+<p><img src="images/Image17.webp" /></p>
 <figcaption><p>Большаков: «Перед нашим первым концертом я купил гитару
 как у Рэнди Роудса…»</p></figcaption>
 </figure>
@@ -1177,7 +1177,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 мерном плеске музыканты слышали песню о весеннем преображении жизни.
 
 <figure>
-<p><img src="images/Image18.png" /></p>
+<p><img src="images/Image18.webp" /></p>
 <figcaption><p>Первый концерт «Мастера». Ленинград, 11 мая 1987
 г.</p></figcaption>
 </figure>
@@ -1240,7 +1240,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 фонограмму, записанную еще с Арзамасковым…
 
 <figure>
-<p><img src="images/Image19.png" /></p>
+<p><img src="images/Image19.webp" /></p>
 <figcaption><p>Херсон. Концерт с Гошей Корнеевым</p></figcaption>
 </figure>
 
@@ -1270,7 +1270,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 и времени на это не было.
 
 <figure>
-<p><img src="images/Image20.png" /></p>
+<p><img src="images/Image20.webp" /></p>
 <figcaption><p>Михаил Серышев</p></figcaption>
 </figure>
 
@@ -1322,7 +1322,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 экземпляров.
 
 <figure>
-<p><img src="images/Image21.png" /></p>
+<p><img src="images/Image21.webp" /></p>
 <figcaption><p>1987 год. Концерт в ЦДТ</p></figcaption>
 </figure>
 
@@ -1374,7 +1374,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 отыграл без Большакова.
 
 <figure>
-<p><img src="images/Image22.png" /></p>
+<p><img src="images/Image22.webp" /></p>
 <figcaption><p>«Мастер» в Польше</p></figcaption>
 </figure>
 
@@ -1420,7 +1420,7 @@ Sells… But Who’s Buying?» и «So Far, So Good… So What?»…
 Через несколько месяцев вызов действительно пришел.
 
 <figure>
-<p><img src="images/Image23.png" /></p>
+<p><img src="images/Image23.webp" /></p>
 <figcaption><p>Андрей Большаков и Фредерик Мулар</p></figcaption>
 </figure>
 
@@ -1456,7 +1456,7 @@ Diamond», другие — под «Def Leppard», ничего своего, �
 массу.
 
 <figure>
-<p><img src="images/Image24.png" /></p>
+<p><img src="images/Image24.webp" /></p>
 <figcaption><p>«Мастер» в самом крутом металлическим магазине
 Бельгии</p></figcaption>
 </figure>
@@ -1624,7 +1624,7 @@ Diamond», другие — под «Def Leppard», ничего своего, �
 «хэви-металл».
 
 <figure>
-<p><img src="images/Image25.png" /></p>
+<p><img src="images/Image25.webp" /></p>
 <figcaption><p>На обложке альбома «Destroykа» изображена группа
 «Мастер»</p></figcaption>
 </figure>
@@ -1676,7 +1676,7 @@ Diamond», другие — под «Def Leppard», ничего своего, �
 люди, затянутые в кожу.
 
 <figure>
-<p><img src="images/Image26.png" /></p>
+<p><img src="images/Image26.webp" /></p>
 <figcaption><p>В Бельгии музыканты «Мастера» переоделись в джинсы и
 «косухи»</p></figcaption>
 </figure>
@@ -1848,7 +1848,7 @@ Flags». Но Большаков не желал мириться с этой п
 только три человека — Большаков, Грановский и Серышев…
 
 <figure>
-<p><img src="images/Image27.png" /></p>
+<p><img src="images/Image27.webp" /></p>
 <figcaption><p>Грановский, Большаков и Серышев на студии
 «SNC».</p></figcaption>
 </figure>
@@ -1869,7 +1869,7 @@ Flags». Но Большаков не желал мириться с этой п
 разглядел Анатолия Шендера, ставшего штатным барабанщиком «Мастера».
 
 <figure>
-<p><img src="images/Image28.png" /></p>
+<p><img src="images/Image28.webp" /></p>
 <figcaption><p>«Мастер»-91: Грановский, Серышев, Кожин, Большаков, сидит
 Шендер</p></figcaption>
 </figure>
@@ -1886,7 +1886,7 @@ Flags». Но Большаков не желал мириться с этой п
 Москве — в только что открывшихся клубах «Секстон» и «Вояж».
 
 <figure>
-<p><img src="images/Image29.png" /></p>
+<p><img src="images/Image29.webp" /></p>
 <figcaption><p>«Мастер» в Павлодаре (1991 г.): Кожин, Большаков, Шендер,
 Серышев и Грановский</p></figcaption>
 </figure>
@@ -2015,7 +2015,7 @@ Devil», и «Maniac Party» вышли бы на русском языке. Н�
 — *Мы сделаем тебе паспорт! И визу сделаем! Только не говори «нет»!*
 
 <figure>
-<p><img src="images/Image30.png" /></p>
+<p><img src="images/Image30.webp" /></p>
 <figcaption><p>Артур Беркут после возвращения из
 Франции</p></figcaption>
 </figure>
@@ -2100,7 +2100,7 @@ Down The Border»), которой сами музыканты остались 
 
 |  |  |
 |----|----|
-| <img src="images/Image31.png" style="width:100.0%" /> | <img src="images/Image32.png" style="width:100.0%" /> |
+| <img src="images/Image31.webp" style="width:100.0%" /> | <img src="images/Image32.webp" style="width:100.0%" /> |
 
 Алик Грановский и Андрей Крустер-Лебедев
 
@@ -2203,7 +2203,7 @@ Zone»). Милованов был близким приятелем Шенде�
 рок-музыке, а это — волшебное чувство.
 
 <figure>
-<p><img src="images/Image33.png" /></p>
+<p><img src="images/Image33.webp" /></p>
 <figcaption><p>«Мастер» - 1999: Фомин, Грановский, Милованов,
 Лекс.</p></figcaption>
 </figure>
@@ -2233,7 +2233,7 @@ Zone»). Милованов был близким приятелем Шенде�
 несколько недель уже состоялся сольный концерт «Мастера».
 
 <figure>
-<p><img src="images/Image34.png" /></p>
+<p><img src="images/Image34.webp" /></p>
 <figcaption><p>«Мастер» в 2001 году: Алик Грановский и
 Страйк</p></figcaption>
 </figure>
@@ -2249,7 +2249,7 @@ Zone»). Милованов был близким приятелем Шенде�
 «Тяжелые» песни в акустическом варианте — это очень неожиданно и терпко…
 
 <figure>
-<p><img src="images/Image35.png" /></p>
+<p><img src="images/Image35.webp" /></p>
 <figcaption><p>Лекс, Грановский и Страйк</p></figcaption>
 </figure>
 
@@ -2282,7 +2282,7 @@ Zone»). Милованов был близким приятелем Шенде�
 «Встань, страх преодолей»…
 
 <figure>
-<p><img src="images/Image36.png" /></p>
+<p><img src="images/Image36.webp" /></p>
 <figcaption><p>«Мастер» в 2003 году</p></figcaption>
 </figure>
 
@@ -2316,7 +2316,7 @@ Zone»). Милованов был близким приятелем Шенде�
 и необычного. Но об этом мы узнаем лишь спустя несколько лет…
 
 <figure>
-<p><img src="images/Image37.png" /></p>
+<p><img src="images/Image37.webp" /></p>
 <figcaption><p>Фотографии с юбилейного концерта «Мастера» в ДК
 МАИ</p></figcaption>
 </figure>
