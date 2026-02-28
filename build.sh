@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Список необходимых пакетов и соответствующих им команд
-declare -A DEPS=( ["typst"]="typst" ["typstyle"]="typstyle" ["pandoc"]="pandoc-cli" ["gs"]="ghostscript" )
+declare -A DEPS=( ["typst"]="typst" ["typstyle"]="typstyle" ["gs"]="ghostscript" )
 MISSING=()
 
 # 1. Проверка наличия программ
@@ -39,12 +39,6 @@ fi
 echo "Компиляция PDF..."
 typst compile book.typ --root .
 
-# 5. Генерация README.md
-if command -v pandoc &> /dev/null; then
-    echo "Обновление README.md из текста книги..."
-    pandoc master-book.typ -f typst -t gfm -o README.md
-fi
-
 # 6. Оптимизация PDF
 if command -v gs &> /dev/null && [ -f "book.pdf" ]; then
     echo "Оптимизация размера PDF (сжатие изображений и шрифтов)..."
@@ -55,4 +49,4 @@ if command -v gs &> /dev/null && [ -f "book.pdf" ]; then
     echo "Размер PDF успешно оптимизирован."
 fi
 
-echo "Готово! Файл book.pdf и README.md обновлены."
+echo "Готово! Файл book.pdf обновлен."
