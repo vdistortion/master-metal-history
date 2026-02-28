@@ -1,0 +1,44 @@
+name: Build and Release Latest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.typ'
+      - 'images/**'
+      - 'build.sh'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: archlinux:latest  # Используем Arch Linux для совпадения команд
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install system dependencies
+        run: |
+          pacman -Syu --noconfirm
+          # Устанавливаем всё необходимое для работы скрипта
+          pacman -S --needed --noconfirm typst typstyle pandoc-cli ghostscript git
+
+      - name: Run Build Script
+        run: |
+          chmod +x build.sh
+          ./build.sh --ci  # Флаг --ci позволит скрипту знать, что мы в автоматическом режиме
+
+      - name: Update Latest Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: "Последняя сборка (Автоматически)"
+          body: "Автоматическая сборка книги. Дата обновления: $(date +'%Y-%m-%d %H:%M')"
+          files: |
+            book.pdf
+            README.md
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
