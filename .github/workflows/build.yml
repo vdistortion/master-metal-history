@@ -19,11 +19,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Get current date
+        id: date
+        run: echo "date_now=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
+
       - name: Install system dependencies
         run: |
           pacman -Syu --noconfirm
           # Устанавливаем всё необходимое для работы скрипта
-          pacman -S --needed --noconfirm typst typstyle pandoc-cli ghostscript git
+          pacman -S --needed --noconfirm typst typstyle ghostscript git t1-urw-fonts
 
       - name: Run Build Script
         run: |
@@ -34,11 +38,21 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: "Последняя сборка (Автоматически)"
-          body: "Автоматическая сборка книги. Дата обновления: $(date +'%Y-%m-%d %H:%M')"
-          files: |
-            book.pdf
-            README.md
+          name: "Последняя сборка (${{ steps.date.outputs.date_now }})"
+          body: |
+            ### 🚀 Автоматическая сборка проекта
+            Это актуальная версия цифрового издания книги. 
+
+            **Что нового:**
+            - Автоматическая компиляция из Typst-исходников.
+            - Оптимизация размера PDF (сжатие изображений без потери читаемости).
+            - Обновление структуры.
+
+            **Файлы:**
+            - `book.pdf` — основная книга для чтения.
+
+            *Сгенерировано роботом GitHub Actions.*
+          files: book.pdf
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
