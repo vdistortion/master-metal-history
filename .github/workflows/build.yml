@@ -26,7 +26,7 @@ jobs:
       - name: Install system dependencies
         run: |
           pacman -Syu --noconfirm
-          pacman -S --needed --noconfirm typst typstyle ghostscript git gsfonts
+          pacman -S --needed --noconfirm typst typstyle ghostscript git
 
       - name: Run Build Script
         run: |

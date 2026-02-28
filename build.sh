@@ -37,7 +37,7 @@ fi
 
 # 4. Компиляция книги
 echo "Компиляция PDF..."
-typst compile book.typ --root .
+typst compile book.typ --font-path ./fonts --root .
 
 # 6. Оптимизация PDF
 if command -v gs &> /dev/null && [ -f "book.pdf" ]; then
