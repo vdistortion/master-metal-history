@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: archlinux:latest  # Используем Arch Linux для совпадения команд
+    container: archlinux:latest
     permissions:
       contents: write
     steps:
@@ -26,13 +26,12 @@ jobs:
       - name: Install system dependencies
         run: |
           pacman -Syu --noconfirm
-          # Устанавливаем всё необходимое для работы скрипта
-          pacman -S --needed --noconfirm typst typstyle ghostscript git t1-urw-fonts
+          pacman -S --needed --noconfirm typst typstyle ghostscript git gsfonts
 
       - name: Run Build Script
         run: |
           chmod +x build.sh
-          ./build.sh --ci  # Флаг --ci позволит скрипту знать, что мы в автоматическом режиме
+          ./build.sh --ci
 
       - name: Update Latest Release
         uses: softprops/action-gh-release@v2
@@ -50,8 +49,6 @@ jobs:
 
             **Файлы:**
             - `book.pdf` — основная книга для чтения.
-
-            *Сгенерировано роботом GitHub Actions.*
           files: book.pdf
           make_latest: true
         env:
