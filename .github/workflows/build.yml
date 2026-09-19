@@ -7,7 +7,14 @@ on:
     paths:
       - '**.typ'
       - 'images/**'
+      - 'fonts/**'
       - 'build.sh'
+      - 'format.sh'
+  workflow_dispatch:
+
+concurrency:
+  group: latest-release
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -21,7 +28,7 @@ jobs:
 
       - name: Get current date
         id: date
-        run: echo "date_now=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
+        run: echo "date_now=$(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
 
       - name: Install system dependencies
         run: |
@@ -44,7 +51,7 @@ jobs:
 
             **Что нового:**
             - Автоматическая компиляция из Typst-исходников.
-            - Оптимизация размера PDF (сжатие изображений без потери читаемости).
+            - Оптимизация размера PDF.
             - Обновление структуры.
 
             **Файлы:**

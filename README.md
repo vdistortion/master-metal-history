@@ -15,8 +15,10 @@
 - **Качество:** Векторная вёрстка, оптимизированный размер PDF.
 
 ### 📥 Читать книгу
-Самая актуальная версия PDF всегда доступна в разделе релизов:
-👉 **[Скачать PDF](https://github.com/vdistortion/master-metal-history/releases/latest)**
+Самая актуальная версия PDF доступна по постоянной ссылке:
+👉 **[Скачать PDF](https://github.com/vdistortion/master-metal-history/releases/latest/download/book.pdf)**
+
+Страница актуального релиза: [github.com/.../releases/tag/latest](https://github.com/vdistortion/master-metal-history/releases/tag/latest)
 
 ### ⚖️ Правовой статус
 - **Текст:** Принадлежит Владимиру Марочкину. Работа над цифровой версией велась с ведома автора; по его словам, книга ранее уже находилась в свободном доступе.
