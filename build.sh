@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Список необходимых пакетов и соответствующих им команд
-declare -A DEPS=( ["typst"]="typst" ["typstyle"]="typstyle" ["gs"]="ghostscript" )
+declare -A DEPS=( ["typst"]="typst" ["gs"]="ghostscript" )
 MISSING=()
 
 # 1. Проверка наличия программ
@@ -29,17 +29,11 @@ if [ ${#MISSING[@]} -ne 0 ]; then
     fi
 fi
 
-# 3. Форматирование кода
-if command -v typstyle &> /dev/null; then
-    echo "Форматирование исходников..."
-    typstyle -i *.typ --wrap-text
-fi
-
-# 4. Компиляция книги
+# 3. Компиляция книги
 echo "Компиляция PDF..."
 typst compile book.typ --font-path ./fonts --root .
 
-# 6. Оптимизация PDF
+# 4. Оптимизация PDF
 if command -v gs &> /dev/null && [ -f "book.pdf" ]; then
     echo "Оптимизация размера PDF (сжатие изображений и шрифтов)..."
     gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
