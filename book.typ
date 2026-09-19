@@ -55,8 +55,8 @@
 // --- СТРУКТУРА ДОКУМЕНТА ---
 
 // 1 и 2: Передняя обложка и её оборот
-#page(margin: 0pt)[#image("images/Cover1.webp", width: 100%, height: 100%)]
-#page(margin: 0pt)[#image("images/Cover2.webp", width: 100%, height: 100%)]
+#page(margin: 0pt)[#image("images/Cover1.webp", width: 100%, height: 100%, fit: "cover")]
+#page(margin: 0pt)[#image("images/Cover2.webp", width: 100%, height: 100%, fit: "cover")]
 
 // 3: Главный титульный лист
 #page[
@@ -162,5 +162,5 @@
 
 // --- ЗАВЕРШЕНИЕ (Задние обложки) ---
 #set page(numbering: none)
-#page(margin: 0pt)[#image("images/Cover3.webp", width: 100%, height: 100%)]
-#page(margin: 0pt)[#image("images/Cover4.webp", width: 100%, height: 100%)]
+#page(margin: 0pt)[#image("images/Cover3.webp", width: 100%, height: 100%, fit: "cover")]
+#page(margin: 0pt)[#image("images/Cover4.webp", width: 100%, height: 100%, fit: "cover")]
