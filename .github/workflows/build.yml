@@ -10,6 +10,7 @@ on:
       - 'fonts/**'
       - 'build.sh'
       - 'format.sh'
+      - '.github/workflows/build.yml'
   workflow_dispatch:
 
 concurrency:
