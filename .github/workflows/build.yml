@@ -40,6 +40,9 @@ jobs:
           chmod +x build.sh
           ./build.sh --ci
 
+      - name: Point latest source tag to this commit
+        run: git push origin "+${GITHUB_SHA}:refs/tags/latest"
+
       - name: Update Latest Release
         uses: softprops/action-gh-release@v2
         with:
