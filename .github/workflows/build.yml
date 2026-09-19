@@ -42,7 +42,32 @@ jobs:
           ./build.sh --ci
 
       - name: Point latest source tag to this commit
-        run: git push origin "+${GITHUB_SHA}:refs/tags/latest"
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const ref = 'tags/latest'
+            const owner = context.repo.owner
+            const repo = context.repo.repo
+
+            try {
+              await github.rest.git.updateRef({
+                owner,
+                repo,
+                ref,
+                sha: context.sha,
+                force: true,
+              })
+            } catch (error) {
+              if (error.status !== 404) throw error
+
+              await github.rest.git.createRef({
+                owner,
+                repo,
+                ref: `refs/${ref}`,
+                sha: context.sha,
+              })
+            }
 
       - name: Update Latest Release
         uses: softprops/action-gh-release@v2
