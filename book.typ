@@ -159,6 +159,7 @@
 
 // --- ОСНОВНОЙ КОНТЕНТ ---
 #include "master-book.typ"
+#include "genealogy.typ"
 
 // --- ЗАВЕРШЕНИЕ (Задние обложки) ---
 #set page(numbering: none)
