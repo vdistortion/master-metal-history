@@ -159,6 +159,8 @@
 
 // --- ОСНОВНОЙ КОНТЕНТ ---
 #include "master-book.typ"
+#include "discography.typ"
+#include "musicians-discography.typ"
 #include "genealogy.typ"
 
 // --- ЗАВЕРШЕНИЕ (Задние обложки) ---
