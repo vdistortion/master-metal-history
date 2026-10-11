@@ -48,7 +48,9 @@
     ]
     #label("musicians-discography-page")
   ]
-  #heading(level: 1, bookmarked: false)[Дискография музыкантов группы «Мастер»]
+  #align(center)[
+    #heading(level: 1, bookmarked: false)[Дискография музыкантов группы «Мастер»]
+  ]
 
   #musician("Андрей Большаков", (
     ("1983", [*Зигзаг* «Паноптикум» — магнитоальбом]),

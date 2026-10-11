@@ -207,7 +207,7 @@
   )
 }
 
-#page[
+#page(numbering: none)[
   #place(top + left)[
     #heading(level: 1, outlined: false, bookmarked: true)[
       #text(size: 0pt)[Содержание]

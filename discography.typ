@@ -112,7 +112,7 @@
   )
   #show heading: set block(above: 0pt, below: 2mm)
 
-  #page[
+  #page(numbering: none)[
     #set align(center)
     #v(30%)
     #text(size: 22pt, weight: "bold")[«МАСТЕР»]

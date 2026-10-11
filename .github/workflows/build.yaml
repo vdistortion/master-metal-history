@@ -1,4 +1,4 @@
-name: Сборка и публикация актуальной версии
+name: Build and Publish Latest Release
 
 on:
   push:
@@ -9,8 +9,8 @@ on:
       - 'images/**'
       - 'fonts/**'
       - 'build.sh'
-      - '.github/workflows/build.yml'
-      - '.github/release.yml'
+      - '.github/workflows/build.yaml'
+      - '.github/release-notes.md'
   workflow_dispatch:
 
 concurrency:
@@ -70,8 +70,10 @@ jobs:
         with:
           tag_name: latest
           name: "Владимир Марочкин — «Мастер» (2003)"
-          generate_release_notes: true
-          files: "Владимир Марочкин - Мастер (2003).pdf"
+          body_path: .github/release-notes.md
+          files: |
+            Владимир Марочкин - Мастер (2003).pdf
+            images/Poster.webp
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
