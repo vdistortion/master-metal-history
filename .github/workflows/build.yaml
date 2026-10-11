@@ -71,9 +71,7 @@ jobs:
           tag_name: latest
           name: "Владимир Марочкин — «Мастер» (2003)"
           body_path: .github/release-notes.md
-          files: |
-            Владимир Марочкин - Мастер (2003).pdf
-            images/Poster.webp
+          files: Vladimir_Marochkin_Master_2003.pdf
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-OUTPUT_PDF="Владимир Марочкин - Мастер (2003).pdf"
+OUTPUT_PDF="Vladimir_Marochkin_Master_2003.pdf"
 OPTIMIZED_PDF="${OUTPUT_PDF%.pdf}.optimized.pdf"
 
 # Список необходимых пакетов и соответствующих им команд
