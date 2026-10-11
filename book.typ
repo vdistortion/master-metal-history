@@ -1,3 +1,11 @@
+#set document(
+  title: [Владимир Марочкин — «Мастер» (2003)],
+  author: "Владимир Марочкин",
+  description: [История и дискография группы «Мастер». Цифровое издание книги 2003 года.],
+  keywords: ("Мастер", "Владимир Марочкин", "история музыки"),
+  date: auto,
+)
+
 // --- ГЕОМЕТРИЯ И ПАРАМЕТРЫ СТРАНИЦЫ ---
 #set page(
   width: 140mm,
@@ -182,9 +190,10 @@
 ]
 
 // --- ОСНОВНОЙ КОНТЕНТ ---
-#include "master-book.typ"
+#include "history.typ"
+#include "epilogue.typ"
 #include "discography.typ"
-#include "musicians-discography.typ"
+#include "musicians.typ"
 #include "genealogy.typ"
 
 #let contents-entry(title, target, page_ref) = context {

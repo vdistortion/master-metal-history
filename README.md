@@ -16,9 +16,9 @@
 
 ### 📥 Читать книгу
 Самая актуальная версия PDF доступна по постоянной ссылке:
-👉 **[Скачать PDF](https://github.com/vdistortion/master-metal-history/releases/latest/download/book.pdf)**
+👉 **[Скачать PDF](https://github.com/vdistortion/master-metal-history/releases/latest/download/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D0%9C%D0%B0%D1%80%D0%BE%D1%87%D0%BA%D0%B8%D0%BD%20-%20%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%282003%29.pdf)**
 
-Страница актуального релиза: [github.com/.../releases/tag/latest](https://github.com/vdistortion/master-metal-history/releases/tag/latest)
+Страница актуального релиза: [GitHub Releases](https://github.com/vdistortion/master-metal-history/releases/latest)
 
 ### ⚖️ Правовой статус
 - **Текст:** Принадлежит Владимиру Марочкину. Работа над цифровой версией велась с ведома автора; по его словам, книга ранее уже находилась в свободном доступе.

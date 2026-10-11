@@ -1,4 +1,4 @@
-name: Build and Release Latest
+name: Сборка и публикация актуальной версии
 
 on:
   push:
@@ -9,8 +9,8 @@ on:
       - 'images/**'
       - 'fonts/**'
       - 'build.sh'
-      - 'format.sh'
       - '.github/workflows/build.yml'
+      - '.github/release.yml'
   workflow_dispatch:
 
 concurrency:
@@ -26,10 +26,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Get current date
-        id: date
-        run: echo "date_now=$(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
 
       - name: Install system dependencies
         run: |
@@ -73,19 +69,9 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: "Последняя сборка (${{ steps.date.outputs.date_now }})"
-          body: |
-            ### 🚀 Автоматическая сборка проекта
-            Это актуальная версия цифрового издания книги. 
-
-            **Что нового:**
-            - Автоматическая компиляция из Typst-исходников.
-            - Оптимизация размера PDF.
-            - Обновление структуры.
-
-            **Файлы:**
-            - `book.pdf` — основная книга для чтения.
-          files: book.pdf
+          name: "Владимир Марочкин — «Мастер» (2003)"
+          generate_release_notes: true
+          files: "Владимир Марочкин - Мастер (2003).pdf"
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
