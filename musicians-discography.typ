@@ -1,5 +1,5 @@
 #let musician(name, entries) = {
-  heading(level: 2, name)
+  heading(level: 2, bookmarked: false, name)
   for (year, release) in entries {
     block(breakable: false, below: 1.5mm)[
       #grid(
@@ -42,7 +42,13 @@
   #show heading.where(level: 1): set block(above: 0pt, below: 5mm)
   #pagebreak(weak: true)
 
-  = Дискография музыкантов группы «Мастер»
+  #place(top + left)[
+    #heading(level: 1, outlined: false, bookmarked: true)[
+      #text(size: 0pt)[Дискография музыкантов группы]
+    ]
+    #label("musicians-discography-page")
+  ]
+  #heading(level: 1, bookmarked: false)[Дискография музыкантов группы «Мастер»]
 
   #musician("Андрей Большаков", (
     ("1983", [*Зигзаг* «Паноптикум» — магнитоальбом]),

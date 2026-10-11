@@ -44,6 +44,14 @@
 #show heading: set text(font: "Nimbus Sans", weight: "bold")
 #show heading: set block(above: 2em, below: 1em)
 
+// Невидимая закладка PDF в начале страницы, без заголовка в печатном тексте.
+#let pdf-bookmark(title, destination) = place(top + left)[
+  #heading(level: 1, outlined: false, bookmarked: true)[
+    #text(size: 0pt)[#title]
+  ]
+  #label(destination)
+]
+
 // Оформление подписей к рисункам (курсив, Nimbus Sans, малый размер, без слова "Рисунок")
 #show figure.caption: it => [
   #set text(size: 8.5pt, style: "italic", font: "Nimbus Sans")
@@ -160,6 +168,12 @@
 #counter(page).update(1) // Сбрасываем счетчик: эта страница — №1
 
 #page[
+  #place(top + left)[
+    #heading(level: 1, outlined: false, bookmarked: true)[
+      #text(size: 0pt)[История группы]
+    ]
+    #label("history-page")
+  ]
   #set align(center)
   #v(30%)
   #text(size: 22pt, weight: "bold")[«МАСТЕР»]
@@ -172,6 +186,37 @@
 #include "discography.typ"
 #include "musicians-discography.typ"
 #include "genealogy.typ"
+
+#let contents-entry(title, target) = context {
+  let page-number = counter(page).at(target).first()
+  grid(
+    columns: (auto, 1fr, auto),
+    column-gutter: 0.5em,
+    link(target)[#title],
+    box(width: 1fr, repeat[.]),
+    link(target)[#page-number],
+  )
+}
+
+#page[
+  #place(top + left)[
+    #heading(level: 1, outlined: false, bookmarked: true)[
+      #text(size: 0pt)[Содержание]
+    ]
+    #label("contents-page")
+  ]
+  #set align(center)
+  #v(8mm)
+  #text(font: "Nimbus Sans", size: 16pt, weight: "bold")[Содержание]
+  #v(10mm)
+  #set align(left)
+  #set text(size: 10pt)
+  #contents-entry([ИСТОРИЯ ГРУППЫ], <history-page>)
+  #contents-entry([ДИСКОГРАФИЯ], <discography-page>)
+  #contents-entry([ДИСКОГРАФИЯ МУЗЫКАНТОВ ГРУППЫ], <musicians-discography-page>)
+  #contents-entry([ГЕНЕАЛОГИЧЕСКОЕ ДРЕВО ГРУППЫ «МАСТЕР»], <genealogy-page>)
+  #contents-entry([СОДЕРЖАНИЕ], <contents-page>)
+]
 
 // --- ЗАВЕРШЕНИЕ (Задние обложки) ---
 #set page(numbering: none)

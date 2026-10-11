@@ -553,6 +553,12 @@
   #box(width: page-width, height: page-height)[
     #place(top + center, dy: 4mm)[
       #set par(first-line-indent: 0pt, justify: false, spacing: 0pt)
+      #place(top + left)[
+        #heading(level: 1, outlined: false, bookmarked: true)[
+          #text(size: 0pt)[Генеалогическое древо группы «Мастер»]
+        ]
+        #label("genealogy-page")
+      ]
       #text(size: 10pt, weight: "bold", "Генеалогическое древо группы «МАСТЕР»")
     ]
     #for link in links {

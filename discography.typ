@@ -59,7 +59,7 @@
   body,
 ) = page[
   #align(center)[
-    #heading(level: 2, title)
+    #heading(level: 2, bookmarked: false, title)
     #text(size: 9pt, release)
   ]
   #v(5mm)
@@ -117,6 +117,12 @@
     #v(30%)
     #text(size: 22pt, weight: "bold")[«МАСТЕР»]
     #v(1.5em)
+    #place(top + left)[
+      #heading(level: 1, outlined: false, bookmarked: true)[
+        #text(size: 0pt)[Дискография]
+      ]
+      #label("discography-page")
+    ]
     #text(size: 16pt)[ДИСКОГРАФИЯ]
   ]
 
