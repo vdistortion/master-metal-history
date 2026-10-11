@@ -164,7 +164,7 @@
 ]
 
 // 5: Титул первой части и начало официального отсчета
-#set page(numbering: "1") // Включаем нумерацию (футер начнет её видеть)
+#set page(numbering: n => str(n + 2)) // Основной текст начинается с печатной страницы 4
 #counter(page).update(1) // Сбрасываем счетчик: эта страница — №1
 
 #page[
@@ -187,8 +187,8 @@
 #include "musicians-discography.typ"
 #include "genealogy.typ"
 
-#let contents-entry(title, target) = context {
-  let page-number = counter(page).at(target).first()
+#let contents-entry(title, target, page_ref) = context {
+  let page-number = counter(page).at(page_ref).first() + 2
   grid(
     columns: (auto, 1fr, auto),
     column-gutter: 0.5em,
@@ -211,11 +211,15 @@
   #v(10mm)
   #set align(left)
   #set text(size: 10pt)
-  #contents-entry([ИСТОРИЯ ГРУППЫ], <history-page>)
-  #contents-entry([ДИСКОГРАФИЯ], <discography-page>)
-  #contents-entry([ДИСКОГРАФИЯ МУЗЫКАНТОВ ГРУППЫ], <musicians-discography-page>)
-  #contents-entry([ГЕНЕАЛОГИЧЕСКОЕ ДРЕВО ГРУППЫ «МАСТЕР»], <genealogy-page>)
-  #contents-entry([СОДЕРЖАНИЕ], <contents-page>)
+  #contents-entry(
+    [ИСТОРИЯ ГРУППЫ],
+    <history-page>,
+    <history-page>,
+  )
+  #contents-entry([ДИСКОГРАФИЯ], <discography-page>, <discography-page>)
+  #contents-entry([ДИСКОГРАФИЯ МУЗЫКАНТОВ ГРУППЫ], <musicians-discography-page>, <musicians-discography-page>)
+  #contents-entry([ГЕНЕАЛОГИЧЕСКОЕ ДРЕВО ГРУППЫ «МАСТЕР»], <genealogy-page>, <genealogy-page>)
+  #contents-entry([СОДЕРЖАНИЕ], <contents-page>, <contents-page>)
 ]
 
 // --- ЗАВЕРШЕНИЕ (Задние обложки) ---
